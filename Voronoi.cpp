@@ -3,6 +3,7 @@
 #include <iostream>
 #include <algorithm>
 #include <set>
+#include <cmath>
 
 using namespace vor;
 
@@ -281,4 +282,4 @@ VPoint * Voronoi::GetEdgeIntersection(VEdge * a, VEdge * b)
 }
 
 
-	
+
