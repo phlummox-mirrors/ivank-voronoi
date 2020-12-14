@@ -15,7 +15,8 @@ void reshape (int width, int height);
 
 vor::Voronoi * v;
 vor::Vertices * ver; // vrcholy
-vor::Vertices * dir; // smìry, kterými se pohybují
+vor::Vertices * dir; // smiry, kterymi se pohybuji
+                     // tr. from Czech: "the directions in which I move"
 vor::Edges * edg;	 // hrany diagramu
 
 double w = 10000;
