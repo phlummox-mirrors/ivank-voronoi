@@ -59,7 +59,7 @@ int main (int argc, char **argv)
 	glutInitDisplayMode (GLUT_SINGLE); // Set up a basic display buffer (only single buffered for now)
 	glutInitWindowSize (600, 600); // Set the width and height of the window
 	glutInitWindowPosition (100, 100); // Set the position of the window
-	glutCreateWindow ("You’re first OpenGL Window"); // Set the title for the window
+	glutCreateWindow ("Your first OpenGL Window"); // Set the title for the window
 	
 	glutTimerFunc(100, onEF, 0);
 	glutDisplayFunc(display); // Tell GLUT to use the method "display" for rendering
