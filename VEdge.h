@@ -1,7 +1,7 @@
 #ifndef VEdge_h
 #define VEdge_h
 
-#include "Vpoint.h"
+#include "VPoint.h"
 #include <iostream>
 
 /*
