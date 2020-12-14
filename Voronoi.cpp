@@ -123,7 +123,8 @@ void	Voronoi::RemoveParabola(VEvent * e)
 	VParabola * p0 = VParabola::GetLeftChild(xl);
 	VParabola * p2 = VParabola::GetRightChild(xr);
 
-	if(p0 == p2) std::cout << "chyba - pravá a levá parabola má stejné ohnisko!\n";
+	//if(p0 == p2) std::cout << "chyba - prava  leva parabola ma stejne ohnisko!\n";
+	if(p0 == p2) std::cout << "error - the right left parabola has the same focus!" << std::endl;
 
 	if(p0->cEvent){ deleted.insert(p0->cEvent); p0->cEvent = 0; }
 	if(p2->cEvent){ deleted.insert(p2->cEvent); p2->cEvent = 0; }
